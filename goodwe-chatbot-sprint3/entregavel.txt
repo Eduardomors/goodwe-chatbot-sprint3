@@ -1,0 +1,12 @@
+SPRINT 3 — CHATBOT GOODWE (Agentes de IA)
+
+Integrantes:
+- Brenno Gomes — RM: 570525
+- Eduardo Moreira — RM: 569923
+- Enzo Stahal — RM: 569001
+- Matheus Bruno — RM: 572944
+
+Turma: 1ESPK
+
+Link do repositório GitHub:
+https://github.com/Eduardomors/goodwe-chatbot-sprint3
