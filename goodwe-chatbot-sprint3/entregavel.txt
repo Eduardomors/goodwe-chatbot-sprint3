@@ -6,7 +6,7 @@ Integrantes:
 - Enzo Stahal — RM: 569001
 - Matheus Bruno — RM: 572944
 
-Turma: 1ESPK
+Turma: 1CCPX    
 
 Link do repositório GitHub:
 https://github.com/Eduardomors/goodwe-chatbot-sprint3
