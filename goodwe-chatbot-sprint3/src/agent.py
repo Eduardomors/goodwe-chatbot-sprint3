@@ -4,6 +4,7 @@ GoodWe EV ChargeOps Agent — Sprint 3
 
 from __future__ import annotations
 
+import os
 import time
 from typing import Annotated, TypedDict
 
@@ -51,7 +52,8 @@ def agent_node(state: AgentState) -> dict:
     system_prompt = get_system_prompt()
     messages_for_llm = [SystemMessage(content=system_prompt)] + state["messages"]
 
-    time.sleep(15)
+    # Pausa para respeitar o rate limit do tier gratuito do Groq (configurável via .env)
+    time.sleep(float(os.getenv("AGENT_SLEEP_S", "15")))
     start = time.time()
     response = llm.invoke(messages_for_llm)
     latency = (time.time() - start) * 1000

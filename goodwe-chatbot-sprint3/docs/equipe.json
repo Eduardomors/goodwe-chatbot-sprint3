@@ -1,0 +1,10 @@
+{
+  "turma": "1CCPX",
+  "repositorio": "https://github.com/Eduardomors/goodwe-chatbot-sprint3",
+  "integrantes": [
+    {"nome": "Brenno Gomes", "rm": "570525", "tarefa": "Pipeline de avaliação (runner, LLM juiz, métricas e checagens determinísticas) e baseline da Sprint 2"},
+    {"nome": "Eduardo Moreira", "rm": "569923", "tarefa": "Golden dataset — casos de segurança e prompt injection, gabaritos e regras de recusa"},
+    {"nome": "Enzo Stahal", "rm": "569001", "tarefa": "Golden dataset — casos funcionais, de memória e de borda; execução do pipeline nas versões"},
+    {"nome": "Matheus Bruno", "rm": "572944", "tarefa": "Comparação com a avaliação manual da Sprint 3, análise dos resultados e relatório final"}
+  ]
+}

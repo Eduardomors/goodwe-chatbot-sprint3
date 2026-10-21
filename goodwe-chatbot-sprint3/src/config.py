@@ -41,3 +41,9 @@ def get_system_prompt() -> str:
     )
     with open(prompt_path, "r", encoding="utf-8") as f:
         return f.read()
+
+# ── Sprint 4: modelo usado como juiz (LLM as a judge) ───────────────────────
+# "auto" = escolhe um modelo disponível na conta do Groq, preferindo uma família
+# DIFERENTE da do agente (gpt-oss), para reduzir o viés de autopreferência.
+# Para fixar um modelo, coloque JUDGE_MODEL=<id do modelo> no .env.
+JUDGE_MODEL = os.getenv("JUDGE_MODEL", "auto")

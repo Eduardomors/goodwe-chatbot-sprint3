@@ -1,4 +1,4 @@
-SPRINT 3 — CHATBOT GOODWE (Agentes de IA)
+SPRINT 4 — CHATBOT GOODWE (Avaliação sistemática do agente)
 
 Integrantes:
 - Brenno Gomes — RM: 570525
@@ -6,7 +6,9 @@ Integrantes:
 - Enzo Stahal — RM: 569001
 - Matheus Bruno — RM: 572944
 
-Turma: 1CCPX    
+Turma: 1CCPX
 
 Link do repositório GitHub:
 https://github.com/Eduardomors/goodwe-chatbot-sprint3
+
+Relatório final: docs/relatorio_final_sprint4.pdf

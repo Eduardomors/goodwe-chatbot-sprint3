@@ -1,0 +1,160 @@
+{
+  "gerado_em": "2026-10-21T17:13:22",
+  "modelo_juiz": "qwen/qwen3.8-27b",
+  "n_casos_dataset": 41,
+  "versoes": {
+    "s3_gravado_compound-mini": {
+      "n_casos": 19,
+      "nota_final": 90.6,
+      "taxa_aprovacao": 89.5,
+      "correcao_media": 4.47,
+      "escopo_medio": 5,
+      "fidelidade_media": 4.42,
+      "recusa_correta": 100,
+      "recusa_indevida": 8.3,
+      "checks_ok": 89.5,
+      "bloqueios_guardrail": 3,
+      "latencia_media_ms": 2755.0,
+      "por_categoria": {
+        "funcionalidade": {
+          "n": 7,
+          "score": 83.9,
+          "aprovacao": 85.7
+        },
+        "seguranca": {
+          "n": 8,
+          "score": 97.2,
+          "aprovacao": 100
+        },
+        "memoria": {
+          "n": 4,
+          "score": 89.3,
+          "aprovacao": 75.0
+        }
+      },
+      "nome": "S3 gravado (compound-mini)",
+      "descricao": "Respostas gravadas na Sprint 3 (docs/resultados_brutos.json), rejulgadas pelo pipeline."
+    },
+    "s3_gravado_gpt-oss-120b": {
+      "n_casos": 19,
+      "nota_final": 92.9,
+      "taxa_aprovacao": 94.7,
+      "correcao_media": 4.58,
+      "escopo_medio": 5,
+      "fidelidade_media": 4.42,
+      "recusa_correta": 100,
+      "recusa_indevida": 0,
+      "checks_ok": 94.7,
+      "bloqueios_guardrail": 3,
+      "latencia_media_ms": 1639.0,
+      "por_categoria": {
+        "funcionalidade": {
+          "n": 7,
+          "score": 89.8,
+          "aprovacao": 100
+        },
+        "seguranca": {
+          "n": 8,
+          "score": 96.1,
+          "aprovacao": 100
+        },
+        "memoria": {
+          "n": 4,
+          "score": 91.8,
+          "aprovacao": 75.0
+        }
+      },
+      "nome": "S3 gravado (gpt-oss-120b)",
+      "descricao": "Respostas gravadas na Sprint 3 (docs/resultados_brutos.json), rejulgadas pelo pipeline."
+    },
+    "v1_sprint2": {
+      "n_casos": 41,
+      "nota_final": 92.5,
+      "taxa_aprovacao": 87.8,
+      "correcao_media": 4.49,
+      "escopo_medio": 4.83,
+      "fidelidade_media": 4.56,
+      "recusa_correta": 100,
+      "recusa_indevida": 0,
+      "checks_ok": 100,
+      "bloqueios_guardrail": 0,
+      "latencia_media_ms": 1208.0,
+      "por_categoria": {
+        "funcionalidade": {
+          "n": 12,
+          "score": 95.6,
+          "aprovacao": 100
+        },
+        "escopo": {
+          "n": 6,
+          "score": 93.8,
+          "aprovacao": 83.3
+        },
+        "seguranca": {
+          "n": 13,
+          "score": 91.9,
+          "aprovacao": 84.6
+        },
+        "memoria": {
+          "n": 5,
+          "score": 95.5,
+          "aprovacao": 100
+        },
+        "borda": {
+          "n": 5,
+          "score": 81.8,
+          "aprovacao": 60.0
+        }
+      },
+      "nome": "V1 — Sprint 2 (prompt + histórico, sem framework)",
+      "descricao": "Chamada direta à LLM com o system prompt da Sprint 1/2 + few-shot e histórico em lista. Sem LangGraph e sem guardrails. Modelo gpt-oss-120b (mesmo da V2, para isolar a arquitetura)."
+    },
+    "v2_sprint3": {
+      "n_casos": 41,
+      "nota_final": 90.6,
+      "taxa_aprovacao": 90.2,
+      "correcao_media": 4.39,
+      "escopo_medio": 5,
+      "fidelidade_media": 4.44,
+      "recusa_correta": 100,
+      "recusa_indevida": 7.4,
+      "checks_ok": 95.1,
+      "bloqueios_guardrail": 5,
+      "latencia_media_ms": 1497.0,
+      "por_categoria": {
+        "funcionalidade": {
+          "n": 12,
+          "score": 90.5,
+          "aprovacao": 100
+        },
+        "escopo": {
+          "n": 6,
+          "score": 81.7,
+          "aprovacao": 66.7
+        },
+        "seguranca": {
+          "n": 13,
+          "score": 95.1,
+          "aprovacao": 92.3
+        },
+        "memoria": {
+          "n": 5,
+          "score": 98.2,
+          "aprovacao": 100
+        },
+        "borda": {
+          "n": 5,
+          "score": 82.5,
+          "aprovacao": 80.0
+        }
+      },
+      "nome": "V2 — Sprint 3 (LangGraph + guardrails, gpt-oss-120b)",
+      "descricao": "Versão final da Sprint 3: StateGraph com input_guard → agent → output_guard, MemorySaver por sessão, system prompt evoluído. Modelo gpt-oss-120b."
+    }
+  },
+  "ranking": [
+    "v1_sprint2",
+    "v2_sprint3"
+  ],
+  "versoes_incompletas": []
+}
