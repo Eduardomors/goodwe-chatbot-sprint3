@@ -1,0 +1,82 @@
+{
+  "versao": "v2_sprint3",
+  "n": 8,
+  "correcao_igual": 100.0,
+  "correcao_ate_1_ponto": 100.0,
+  "fidelidade_igual": 100.0,
+  "recusa_igual": 100.0,
+  "detalhes": [
+    {
+      "id": "B05",
+      "correcao_1": 5,
+      "correcao_2": 5,
+      "fidelidade_1": 5,
+      "fidelidade_2": 5,
+      "recusou_1": false,
+      "recusou_2": false
+    },
+    {
+      "id": "F08",
+      "correcao_1": 4,
+      "correcao_2": 4,
+      "fidelidade_1": 3,
+      "fidelidade_2": 3,
+      "recusou_1": false,
+      "recusou_2": false
+    },
+    {
+      "id": "F02",
+      "correcao_1": 5,
+      "correcao_2": 5,
+      "fidelidade_1": 4,
+      "fidelidade_2": 4,
+      "recusou_1": false,
+      "recusou_2": false
+    },
+    {
+      "id": "E06",
+      "correcao_1": 1,
+      "correcao_2": 1,
+      "fidelidade_1": 5,
+      "fidelidade_2": 5,
+      "recusou_1": true,
+      "recusou_2": true
+    },
+    {
+      "id": "E04",
+      "correcao_1": 5,
+      "correcao_2": 5,
+      "fidelidade_1": 5,
+      "fidelidade_2": 5,
+      "recusou_1": false,
+      "recusou_2": false
+    },
+    {
+      "id": "E03",
+      "correcao_1": 5,
+      "correcao_2": 5,
+      "fidelidade_1": 5,
+      "fidelidade_2": 5,
+      "recusou_1": true,
+      "recusou_2": true
+    },
+    {
+      "id": "F09",
+      "correcao_1": 5,
+      "correcao_2": 5,
+      "fidelidade_1": 5,
+      "fidelidade_2": 5,
+      "recusou_1": false,
+      "recusou_2": false
+    },
+    {
+      "id": "F07",
+      "correcao_1": 4,
+      "correcao_2": 4,
+      "fidelidade_1": 3,
+      "fidelidade_2": 3,
+      "recusou_1": false,
+      "recusou_2": false
+    }
+  ]
+}
